@@ -7,7 +7,7 @@
   "description": "Apache Cassandra running on DCOS",
   "framework": true,
   "tags": ["data", "database", "nosql"],
-  "preInstallNotes":"You are about the DCOS Apache Cassandra service. The current Cassandra version is 2.2.5",
+  "preInstallNotes":"You are about the DCOS Apache Cassandra service. The current Cassandra version is 2.2.5-HAX",
   "postInstallNotes": "Your Cassandra cluster is being deployed.",
   "postUninstallNotes": "Your Cassandra cluster has been uninstalled. Please run the framework_cleaner to remove any persistent state if required.",
   "licenses": [
