@@ -1,0 +1,9 @@
+{
+    "assets": {
+        "container": {
+            "docker": {
+                "python-3-image": "python:3"
+            }
+        }
+    }
+}
