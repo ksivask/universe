@@ -3,9 +3,7 @@
   "cpus": {{kubernetes.cpus}},
   "mem": {{kubernetes.mem}},
   "acceptedResourceRoles": ["{{{marathon.resource-roles}}}"],
-  "labels": {
-    "DCOS_PACKAGE_FRAMEWORK_NAME": "{{kubernetes.framework-name}}"
-  },
+  "labels": {{{marathon.labels}}},
   "container": {
     "type": "DOCKER",
     "docker": {
